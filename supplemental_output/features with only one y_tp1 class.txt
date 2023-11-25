@@ -1,0 +1,36 @@
+
+There is only one person in the training data with race "Black-American Indian-Asian",
+and that person is unemployed the following year.
+
+
+The following categorical features always have **y_tp1** == 0
+
+[(1, 'race_orig_American Indian-Hawaiian/Pacific Islander'),
+ (1, 'race_orig_White-American Indian-Asian-Hawaiian/Pacific Islander'),
+ (2, 'occ1990_Sociologists'),
+ (3, 'ind1990_Shoe repair shops'),
+ (5, 'race_orig_White-American Indian-Hawaiian/Pacific Islander'),
+ (7, 'race_orig_White-Black-Asian'),
+ (8, 'occ1990_Water transport infrastructure tenders and crossing guards'),
+ (10, 'occ1990_Shoe repairers'),
+ (12, 'occ1990_Paperhangers'),
+ (13, 'occ1990_Podiatrists'),
+ (13, 'occ1990_Shoemaking machine operators'),
+ (14, 'occ1990_Forge and hammer operators'),
+ (15, 'occ1990_Other precision and craft workers'),
+ (16, 'race_orig_Four or five races, unspecified'),
+ (18, 'occ1990_Patternmakers and model makers'),
+ (19, 'occ1990_Other telecom operators'),
+ (19, 'race_orig_Two or three races, unspecified'),
+ (23, 'occ1990_Explosives workers'),
+ (29, 'occ1990_Atmospheric and space scientists'),
+ (31, 'occ1990_Purchasing agents and buyers, of farm products'),
+ (35, 'occ1990_Roasting and baking machine operators (food)'),
+ (51, 'occ1990_Physicists and astronomers'),
+ (57, 'ind1990_Utilities, n.s.'),
+ (70, 'occ1990_Actuaries'),
+ (70, 'occ1990_Locksmiths and safe repairers'),
+ (88, 'occ1990_Foresters and conservation scientists'),
+ (96, 'occ1990_Air traffic controllers')]
+
+ None of these are large enough to manually exploit.
